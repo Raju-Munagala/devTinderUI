@@ -35,8 +35,8 @@ const EditProfile = ({ user }) => {
           <span>Profile Updated Successfully.</span>
         </div>
       </div>}
-      <div className="flex justify-center">
-        <div className="card bg-neutral text-neutral-content my-5 w-3/6 mx-10">
+      <div className="sm:flex justify-center">
+        <div className="card bg-neutral text-neutral-content my-5 sm:w-3/6 mx-10">
           <div className="card-body items-center text-center">
             <h2 className="card-title">Edit Profile</h2>
             <label className="form-control w-full max-w-xs">
